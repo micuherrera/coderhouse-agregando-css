@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+
+.title {
+    color: palevioletred;
+}
+
+.paragraph {
+    color: purple;
+}
+
+.nav-list {
+    color: orangered;
+}
+
+.nav-list li a {
+    color: orangered;
+}
