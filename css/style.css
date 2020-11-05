@@ -1,19 +1,38 @@
 body {
-    background-color: white;
+    background-color:#b7e4c7;
+    text-align: center;
+
 }
 
 .title {
     color: palevioletred;
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+    
 }
 
 .paragraph {
     color: purple;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-list {
     color: orangered;
+    list-style-type:none;
+    font-family: 'Roboto', sans-serif;
+    padding: 0%;
 }
 
 .nav-list li a {
     color: orangered;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #74c69d;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
 }
