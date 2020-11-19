@@ -1,10 +1,10 @@
 body {
-    background-color:  #f8f7ff;
+    background-color:  #FFFFFF;
     text-align: center;
 }
 
 .title {
-    color: palevioletred;
+    color: #ff6f61;
 
     font-family: 'Dancing Script', cursive;
     font-size: 200%;
@@ -12,8 +12,8 @@ body {
 }
 
 .paragraph {
-    color: purple;
-    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -31,7 +31,7 @@ nav {
 
     color: orangered;
     list-style-type:none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 0%;
 
 }
@@ -39,17 +39,23 @@ nav {
 .nav-list li {
     margin: 0 8px;
     padding: 5px ;
+
+    transition: 1s;
 }
 
 .nav-list li:hover {
-    background-color: #ddbea9;
+    transform: scale(1.1,1);  
 }
 
 .nav-list li a {
-    color: #cb997e;
+    color: #000000;
     text-decoration: none;
 }
 
+.nav-list li a:hover {
+    color: #ff6f61;  
+}
+  
 .services {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,13 +89,37 @@ form {
 
 .formItem {
     margin: 5px;
+    transition: 1s;
 }
+
+.formItem:focus {
+    transform: scale(1.1,1);
+}
+
+.social {
+    width: 100%;
+    min-height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.socialIcons {
+    font-size: 2.7rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ff6f61;  
+}
+
 footer {
-    background-color: #b7b7a4;
+    background: rgb(168,48,249);
+    background: linear-gradient(90deg, rgba(168,48,249,1) 0%, rgba(255,224,224,1) 100%);
     width: 100%;
     padding: 10px;
+    margin-top: 15px;
     bottom: 0;
-    color: palevioletred;
+    color: white;
 
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
