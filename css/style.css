@@ -23,6 +23,10 @@ nav {
     align-items: center;
 }
 
+.dropdown {
+    display: none;
+}
+
 .nav-list {
     display: flex;
     flex-direction: row;
@@ -81,6 +85,8 @@ section {
     min-height: 80vh;
 }
 
+
+
 form {
     display: flex;
     flex-direction: column;
@@ -127,8 +133,12 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .nav-list {
-        flex-direction: column;
+    .navbar-nav {
+
+        display: none;
+    }
+    .dropdown {
+        display: flex;
     }
 
     .nav-list li {
