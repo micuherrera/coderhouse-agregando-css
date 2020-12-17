@@ -11,9 +11,25 @@ body {
     margin-left: 20px;
 }
 
+.rounded-image {
+    border-radius: 50%;
+    
+    width: 50%;
+    height: auto;
+
+}
+
+
 .paragraph {
     color: black;
     font-family: 'Poppins', sans-serif;
+}
+
+.list-title {
+    color:#ff6f61;
+    font-family: 'Poppins' sans-serif;
+    list-style-type: none;
+    font-size: 20px;
 }
 
 nav {
@@ -81,7 +97,7 @@ nav {
     align-items: center;
 }
 
-section {
+.aboutMe {
     min-height: 80vh;
 }
 
