@@ -6,9 +6,14 @@ body {
 .title {
     color: #ff6f61;
 
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 200%;
     margin-left: 20px;
+}
+
+.black {
+    color:black;
+    font-weight: bold;
 }
 
 .rounded-image {
@@ -19,17 +24,24 @@ body {
 
 }
 
-
 .paragraph {
     color: black;
     font-family: 'Poppins', sans-serif;
 }
+
+.faq-container, .course-info-container{
+    width: 60%;
+    margin: auto;
+}
+
+
 
 .list-title {
     color:#ff6f61;
     font-family: 'Poppins' sans-serif;
     list-style-type: none;
     font-size: 20px;
+    
 }
 
 nav {
@@ -83,6 +95,62 @@ nav {
     color: #ff6f61;  
 }
 
+.home-page {
+    display: flex;
+    flex-direction: row;
+
+}
+.section {
+    width: 50%;
+    height: 80vh;
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-right .img-container {
+    width: 100%;
+    height: 100%;  
+}
+
+
+.section-right .img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    border: 5px solid black;
+    padding: 60px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.box h1 {
+    font-size: 4.5rem;
+}
+
+.box p {
+font-size: 2.5rem;
+}
+
+.navbar-home {
+    justify-content: flex-end !important;
+    padding-right: 10%;
+}
+
 @media (max-width: 768px) {
     .navbar-nav {
         display: none;
@@ -101,3 +169,16 @@ nav {
         grid-template-rows: repeat(5, 1fr);
     }
 }
+
+footer {
+    background: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    bottom: 0;
+    color: black;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
